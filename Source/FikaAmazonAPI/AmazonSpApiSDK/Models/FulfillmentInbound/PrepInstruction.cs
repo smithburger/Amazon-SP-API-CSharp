@@ -58,7 +58,60 @@ namespace FikaAmazonAPI.AmazonSpApiSDK.Models.FulfillmentInbound
         /// Enum HangGarment for value: HangGarment
         /// </summary>
         [EnumMember(Value = "HangGarment")]
-        HangGarment = 6
-    }
+        HangGarment = 6,
 
+        /// <summary>
+        /// Enum Boxing for value: Boxing
+        /// </summary>
+        [EnumMember(Value = "Boxing")]
+        Boxing = 7,
+
+        /// <summary>
+        /// Enum SuffocationStickering for value: SuffocationStickering
+        /// </summary>
+        [EnumMember(Value = "SuffocationStickering")]
+        SuffocationStickering = 8,
+
+        /// <summary>
+        /// Enum SetCreation for value: SetCreation
+        /// </summary>
+        [EnumMember(Value = "SetCreation")]
+        SetCreation = 9,
+
+        /// <summary>
+        /// Enum SetStickering for value: SetStickering
+        /// </summary>
+        [EnumMember(Value = "SetStickering")]
+        SetStickering = 10,
+
+        /// <summary>
+        /// Enum CapSealing for value: CapSealing
+        /// </summary>
+        [EnumMember(Value = "CapSealing")]
+        CapSealing = 11,
+
+        /// <summary>
+        /// Enum BlankStickering for value: BlankStickering
+        /// </summary>
+        [EnumMember(Value = "BlankStickering")]
+        BlankStickering = 12,
+
+        /// <summary>
+        /// Enum NoPrep for value: NoPrep
+        /// </summary>
+        [EnumMember(Value = "NoPrep")]
+        NoPrep = 13,
+
+        /// <summary>
+        /// Enum Debundle for value: Debundle
+        /// </summary>
+        [EnumMember(Value = "Debundle")]
+        Debundle = 14,
+
+        /// <summary>
+        /// Enum RemoveFromHanger for value: RemoveFromHanger
+        /// </summary>
+        [EnumMember(Value = "RemoveFromHanger")]
+        RemoveFromHanger = 15,
+    }
 }

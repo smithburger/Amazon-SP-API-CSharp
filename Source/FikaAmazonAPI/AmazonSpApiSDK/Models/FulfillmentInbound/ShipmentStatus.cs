@@ -10,6 +10,7 @@
 
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
+using Newtonsoft.Json.Linq;
 using System.Runtime.Serialization;
 
 namespace FikaAmazonAPI.AmazonSpApiSDK.Models.FulfillmentInbound
@@ -70,7 +71,7 @@ namespace FikaAmazonAPI.AmazonSpApiSDK.Models.FulfillmentInbound
         /// Enum INTRANSIT for value: IN_TRANSIT
         /// </summary>
         [EnumMember(Value = "IN_TRANSIT")]
-        INTRANSIT = 8,
+        IN_TRANSIT = 8,
 
         /// <summary>
         /// Enum DELIVERED for value: DELIVERED
@@ -82,7 +83,13 @@ namespace FikaAmazonAPI.AmazonSpApiSDK.Models.FulfillmentInbound
         /// Enum CHECKEDIN for value: CHECKED_IN
         /// </summary>
         [EnumMember(Value = "CHECKED_IN")]
-        CHECKEDIN = 10
+        CHECKED_IN = 10,
+
+        /// <summary>
+        /// Enum READY_TO_SHIP for value: READY_TO_SHIP
+        /// </summary>
+        [EnumMember(Value = "READY_TO_SHIP")]
+        READY_TO_SHIP = 11
     }
 
 }
